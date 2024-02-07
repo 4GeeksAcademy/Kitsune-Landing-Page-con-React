@@ -1,4 +1,5 @@
 import React from "react";
+ 
 
 const Navbar = () => {
     return (
@@ -6,6 +7,9 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark ps-5">
     <div className="container-fluid">
         <a className="navbar-brand">Start Bootstrap</a>
+        <button className="navbar-toggler" >
+            <span className="navbar-toggler-icon"></span>
+        </button>
         <div className="collapse navbar-collapse justify-content-end pe-5" id="navbarNavDropdown">
         <ul className="navbar-nav">
             <li className="nav-item">
