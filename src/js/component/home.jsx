@@ -4,6 +4,8 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Cards from "./Cards";
+import Jumbotron from "./Jumbotron";
 
 //create your first component
 const Home = () => {
@@ -11,6 +13,8 @@ const Home = () => {
 		
 		<div className="text-center">
 			<Navbar/>
+			<Jumbotron/>
+			<Cards/>
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
