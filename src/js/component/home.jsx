@@ -21,7 +21,7 @@ const Home = () => {
 				<Jumbotron/>
 			</div>
 
-			<div className="container-fluid row justify-content-center" s>
+			<div className="container-fluid row justify-content-center">
 				<Cards/>
 			</div>
 
