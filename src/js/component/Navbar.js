@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
 
     return (
-        <nav className="navbar navbar-expand-mdl,g-dark ps-5" style={{ paddingRight: "20px" }}>
+        <nav className="navbar navbar-expand-mdl bg-dark ps-5 navbar-dark" style={{ paddingRight: "20px" }}>
             <div className="container-fluid"> 
                 <a className="navbar-brand">Start Bootstrap</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
